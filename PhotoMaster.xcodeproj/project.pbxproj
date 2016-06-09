@@ -11,10 +11,10 @@
 		848FB21E1D092D2F008B7CE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848FB21D1D092D2F008B7CE7 /* ViewController.swift */; };
 		848FB2211D092D2F008B7CE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848FB21F1D092D2F008B7CE7 /* Main.storyboard */; };
 		848FB2241D092D2F008B7CE7 /* PhotoMaster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 848FB2221D092D2F008B7CE7 /* PhotoMaster.xcdatamodeld */; };
-		848FB2261D092D2F008B7CE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848FB2251D092D2F008B7CE7 /* Assets.xcassets */; };
 		848FB2291D092D2F008B7CE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848FB2271D092D2F008B7CE7 /* LaunchScreen.storyboard */; };
 		848FB2341D092D2F008B7CE7 /* PhotoMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848FB2331D092D2F008B7CE7 /* PhotoMasterTests.swift */; };
 		848FB23F1D092D2F008B7CE7 /* PhotoMasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848FB23E1D092D2F008B7CE7 /* PhotoMasterUITests.swift */; };
+		848FB24D1D0934C0008B7CE7 /* lifeistech_logo_1280x720.png in Resources */ = {isa = PBXBuildFile; fileRef = 848FB24C1D0934C0008B7CE7 /* lifeistech_logo_1280x720.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,6 @@
 		848FB21D1D092D2F008B7CE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		848FB2201D092D2F008B7CE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		848FB2231D092D2F008B7CE7 /* PhotoMaster.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhotoMaster.xcdatamodel; sourceTree = "<group>"; };
-		848FB2251D092D2F008B7CE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		848FB2281D092D2F008B7CE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		848FB22A1D092D2F008B7CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		848FB22F1D092D2F008B7CE7 /* PhotoMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +48,7 @@
 		848FB23A1D092D2F008B7CE7 /* PhotoMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoMasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		848FB23E1D092D2F008B7CE7 /* PhotoMasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoMasterUITests.swift; sourceTree = "<group>"; };
 		848FB2401D092D2F008B7CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848FB24C1D0934C0008B7CE7 /* lifeistech_logo_1280x720.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lifeistech_logo_1280x720.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +79,7 @@
 		848FB20F1D092D2F008B7CE7 = {
 			isa = PBXGroup;
 			children = (
+				848FB24C1D0934C0008B7CE7 /* lifeistech_logo_1280x720.png */,
 				848FB21A1D092D2F008B7CE7 /* PhotoMaster */,
 				848FB2321D092D2F008B7CE7 /* PhotoMasterTests */,
 				848FB23D1D092D2F008B7CE7 /* PhotoMasterUITests */,
@@ -102,7 +103,6 @@
 				848FB21B1D092D2F008B7CE7 /* AppDelegate.swift */,
 				848FB21D1D092D2F008B7CE7 /* ViewController.swift */,
 				848FB21F1D092D2F008B7CE7 /* Main.storyboard */,
-				848FB2251D092D2F008B7CE7 /* Assets.xcassets */,
 				848FB2271D092D2F008B7CE7 /* LaunchScreen.storyboard */,
 				848FB22A1D092D2F008B7CE7 /* Info.plist */,
 				848FB2221D092D2F008B7CE7 /* PhotoMaster.xcdatamodeld */,
@@ -236,8 +236,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				848FB2291D092D2F008B7CE7 /* LaunchScreen.storyboard in Resources */,
-				848FB2261D092D2F008B7CE7 /* Assets.xcassets in Resources */,
 				848FB2211D092D2F008B7CE7 /* Main.storyboard in Resources */,
+				848FB24D1D0934C0008B7CE7 /* lifeistech_logo_1280x720.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
