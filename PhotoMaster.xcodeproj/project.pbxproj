@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		848FB21C1D092D2F008B7CE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848FB21B1D092D2F008B7CE7 /* AppDelegate.swift */; };
+		848FB21E1D092D2F008B7CE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848FB21D1D092D2F008B7CE7 /* ViewController.swift */; };
+		848FB2211D092D2F008B7CE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848FB21F1D092D2F008B7CE7 /* Main.storyboard */; };
+		848FB2241D092D2F008B7CE7 /* PhotoMaster.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 848FB2221D092D2F008B7CE7 /* PhotoMaster.xcdatamodeld */; };
+		848FB2261D092D2F008B7CE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848FB2251D092D2F008B7CE7 /* Assets.xcassets */; };
+		848FB2291D092D2F008B7CE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848FB2271D092D2F008B7CE7 /* LaunchScreen.storyboard */; };
+		848FB2341D092D2F008B7CE7 /* PhotoMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848FB2331D092D2F008B7CE7 /* PhotoMasterTests.swift */; };
+		848FB23F1D092D2F008B7CE7 /* PhotoMasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848FB23E1D092D2F008B7CE7 /* PhotoMasterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		848FB2301D092D2F008B7CE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 848FB2101D092D2F008B7CE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 848FB2171D092D2F008B7CE7;
+			remoteInfo = PhotoMaster;
+		};
+		848FB23B1D092D2F008B7CE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 848FB2101D092D2F008B7CE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 848FB2171D092D2F008B7CE7;
+			remoteInfo = PhotoMaster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		848FB2181D092D2F008B7CE7 /* PhotoMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		848FB21B1D092D2F008B7CE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		848FB21D1D092D2F008B7CE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		848FB2201D092D2F008B7CE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		848FB2231D092D2F008B7CE7 /* PhotoMaster.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhotoMaster.xcdatamodel; sourceTree = "<group>"; };
+		848FB2251D092D2F008B7CE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		848FB2281D092D2F008B7CE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		848FB22A1D092D2F008B7CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848FB22F1D092D2F008B7CE7 /* PhotoMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		848FB2331D092D2F008B7CE7 /* PhotoMasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoMasterTests.swift; sourceTree = "<group>"; };
+		848FB2351D092D2F008B7CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848FB23A1D092D2F008B7CE7 /* PhotoMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoMasterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		848FB23E1D092D2F008B7CE7 /* PhotoMasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoMasterUITests.swift; sourceTree = "<group>"; };
+		848FB2401D092D2F008B7CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		848FB2151D092D2F008B7CE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848FB22C1D092D2F008B7CE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848FB2371D092D2F008B7CE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		848FB20F1D092D2F008B7CE7 = {
+			isa = PBXGroup;
+			children = (
+				848FB21A1D092D2F008B7CE7 /* PhotoMaster */,
+				848FB2321D092D2F008B7CE7 /* PhotoMasterTests */,
+				848FB23D1D092D2F008B7CE7 /* PhotoMasterUITests */,
+				848FB2191D092D2F008B7CE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		848FB2191D092D2F008B7CE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				848FB2181D092D2F008B7CE7 /* PhotoMaster.app */,
+				848FB22F1D092D2F008B7CE7 /* PhotoMasterTests.xctest */,
+				848FB23A1D092D2F008B7CE7 /* PhotoMasterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		848FB21A1D092D2F008B7CE7 /* PhotoMaster */ = {
+			isa = PBXGroup;
+			children = (
+				848FB21B1D092D2F008B7CE7 /* AppDelegate.swift */,
+				848FB21D1D092D2F008B7CE7 /* ViewController.swift */,
+				848FB21F1D092D2F008B7CE7 /* Main.storyboard */,
+				848FB2251D092D2F008B7CE7 /* Assets.xcassets */,
+				848FB2271D092D2F008B7CE7 /* LaunchScreen.storyboard */,
+				848FB22A1D092D2F008B7CE7 /* Info.plist */,
+				848FB2221D092D2F008B7CE7 /* PhotoMaster.xcdatamodeld */,
+			);
+			path = PhotoMaster;
+			sourceTree = "<group>";
+		};
+		848FB2321D092D2F008B7CE7 /* PhotoMasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				848FB2331D092D2F008B7CE7 /* PhotoMasterTests.swift */,
+				848FB2351D092D2F008B7CE7 /* Info.plist */,
+			);
+			path = PhotoMasterTests;
+			sourceTree = "<group>";
+		};
+		848FB23D1D092D2F008B7CE7 /* PhotoMasterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				848FB23E1D092D2F008B7CE7 /* PhotoMasterUITests.swift */,
+				848FB2401D092D2F008B7CE7 /* Info.plist */,
+			);
+			path = PhotoMasterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		848FB2171D092D2F008B7CE7 /* PhotoMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848FB2431D092D2F008B7CE7 /* Build configuration list for PBXNativeTarget "PhotoMaster" */;
+			buildPhases = (
+				848FB2141D092D2F008B7CE7 /* Sources */,
+				848FB2151D092D2F008B7CE7 /* Frameworks */,
+				848FB2161D092D2F008B7CE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoMaster;
+			productName = PhotoMaster;
+			productReference = 848FB2181D092D2F008B7CE7 /* PhotoMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		848FB22E1D092D2F008B7CE7 /* PhotoMasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848FB2461D092D2F008B7CE7 /* Build configuration list for PBXNativeTarget "PhotoMasterTests" */;
+			buildPhases = (
+				848FB22B1D092D2F008B7CE7 /* Sources */,
+				848FB22C1D092D2F008B7CE7 /* Frameworks */,
+				848FB22D1D092D2F008B7CE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				848FB2311D092D2F008B7CE7 /* PBXTargetDependency */,
+			);
+			name = PhotoMasterTests;
+			productName = PhotoMasterTests;
+			productReference = 848FB22F1D092D2F008B7CE7 /* PhotoMasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		848FB2391D092D2F008B7CE7 /* PhotoMasterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848FB2491D092D2F008B7CE7 /* Build configuration list for PBXNativeTarget "PhotoMasterUITests" */;
+			buildPhases = (
+				848FB2361D092D2F008B7CE7 /* Sources */,
+				848FB2371D092D2F008B7CE7 /* Frameworks */,
+				848FB2381D092D2F008B7CE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				848FB23C1D092D2F008B7CE7 /* PBXTargetDependency */,
+			);
+			name = PhotoMasterUITests;
+			productName = PhotoMasterUITests;
+			productReference = 848FB23A1D092D2F008B7CE7 /* PhotoMasterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		848FB2101D092D2F008B7CE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kenta Okuda";
+				TargetAttributes = {
+					848FB2171D092D2F008B7CE7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 43SA38KKY4;
+					};
+					848FB22E1D092D2F008B7CE7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 43SA38KKY4;
+						TestTargetID = 848FB2171D092D2F008B7CE7;
+					};
+					848FB2391D092D2F008B7CE7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 43SA38KKY4;
+						TestTargetID = 848FB2171D092D2F008B7CE7;
+					};
+				};
+			};
+			buildConfigurationList = 848FB2131D092D2F008B7CE7 /* Build configuration list for PBXProject "PhotoMaster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 848FB20F1D092D2F008B7CE7;
+			productRefGroup = 848FB2191D092D2F008B7CE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				848FB2171D092D2F008B7CE7 /* PhotoMaster */,
+				848FB22E1D092D2F008B7CE7 /* PhotoMasterTests */,
+				848FB2391D092D2F008B7CE7 /* PhotoMasterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		848FB2161D092D2F008B7CE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848FB2291D092D2F008B7CE7 /* LaunchScreen.storyboard in Resources */,
+				848FB2261D092D2F008B7CE7 /* Assets.xcassets in Resources */,
+				848FB2211D092D2F008B7CE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848FB22D1D092D2F008B7CE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848FB2381D092D2F008B7CE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		848FB2141D092D2F008B7CE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848FB2241D092D2F008B7CE7 /* PhotoMaster.xcdatamodeld in Sources */,
+				848FB21E1D092D2F008B7CE7 /* ViewController.swift in Sources */,
+				848FB21C1D092D2F008B7CE7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848FB22B1D092D2F008B7CE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848FB2341D092D2F008B7CE7 /* PhotoMasterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848FB2361D092D2F008B7CE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848FB23F1D092D2F008B7CE7 /* PhotoMasterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		848FB2311D092D2F008B7CE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 848FB2171D092D2F008B7CE7 /* PhotoMaster */;
+			targetProxy = 848FB2301D092D2F008B7CE7 /* PBXContainerItemProxy */;
+		};
+		848FB23C1D092D2F008B7CE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 848FB2171D092D2F008B7CE7 /* PhotoMaster */;
+			targetProxy = 848FB23B1D092D2F008B7CE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		848FB21F1D092D2F008B7CE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848FB2201D092D2F008B7CE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		848FB2271D092D2F008B7CE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848FB2281D092D2F008B7CE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		848FB2411D092D2F008B7CE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		848FB2421D092D2F008B7CE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		848FB2441D092D2F008B7CE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhotoMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kenta-Okuda.PhotoMaster";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		848FB2451D092D2F008B7CE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhotoMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kenta-Okuda.PhotoMaster";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		848FB2471D092D2F008B7CE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhotoMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kenta-Okuda.PhotoMasterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoMaster.app/PhotoMaster";
+			};
+			name = Debug;
+		};
+		848FB2481D092D2F008B7CE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhotoMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kenta-Okuda.PhotoMasterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoMaster.app/PhotoMaster";
+			};
+			name = Release;
+		};
+		848FB24A1D092D2F008B7CE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhotoMasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kenta-Okuda.PhotoMasterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhotoMaster;
+			};
+			name = Debug;
+		};
+		848FB24B1D092D2F008B7CE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhotoMasterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kenta-Okuda.PhotoMasterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhotoMaster;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		848FB2131D092D2F008B7CE7 /* Build configuration list for PBXProject "PhotoMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848FB2411D092D2F008B7CE7 /* Debug */,
+				848FB2421D092D2F008B7CE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848FB2431D092D2F008B7CE7 /* Build configuration list for PBXNativeTarget "PhotoMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848FB2441D092D2F008B7CE7 /* Debug */,
+				848FB2451D092D2F008B7CE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		848FB2461D092D2F008B7CE7 /* Build configuration list for PBXNativeTarget "PhotoMasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848FB2471D092D2F008B7CE7 /* Debug */,
+				848FB2481D092D2F008B7CE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		848FB2491D092D2F008B7CE7 /* Build configuration list for PBXNativeTarget "PhotoMasterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848FB24A1D092D2F008B7CE7 /* Debug */,
+				848FB24B1D092D2F008B7CE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		848FB2221D092D2F008B7CE7 /* PhotoMaster.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				848FB2231D092D2F008B7CE7 /* PhotoMaster.xcdatamodel */,
+			);
+			currentVersion = 848FB2231D092D2F008B7CE7 /* PhotoMaster.xcdatamodel */;
+			path = PhotoMaster.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 848FB2101D092D2F008B7CE7 /* Project object */;
+}
